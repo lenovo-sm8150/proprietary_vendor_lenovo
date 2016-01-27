@@ -246,7 +246,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lenovo/kingdom_row/proprietary/lib/hw/fingerprint.msm8974.so:system/lib/hw/fingerprint.msm8974.so \
     vendor/lenovo/kingdom_row/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so
 
 endif
