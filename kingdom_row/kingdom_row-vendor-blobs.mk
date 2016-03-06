@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/kingdom_row/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lenovo/kingdom_row/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/lenovo/kingdom_row/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -64,6 +65,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/kingdom_row/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lenovo/kingdom_row/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lenovo/kingdom_row/proprietary/lib/libarcsoft_flawless_face.so:system/lib/libarcsoft_flawless_face.so \
+    vendor/lenovo/kingdom_row/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
+    vendor/lenovo/kingdom_row/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
+    vendor/lenovo/kingdom_row/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/lenovo/kingdom_row/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
@@ -133,6 +139,29 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libactuator_onsemi_lc898112_camcorder.so:system/vendor/lib/libactuator_onsemi_lc898112_camcorder.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libactuator_onsemi_lc898112_camera.so:system/vendor/lib/libactuator_onsemi_lc898112_camera.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_ov5693_common.so:system/vendor/lib/libchromatix_ov5693_common.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_ov5693_default_video.so:system/vendor/lib/libchromatix_ov5693_default_video.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_ov5693_fhd.so:system/vendor/lib/libchromatix_ov5693_fhd.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_ov5693_hd.so:system/vendor/lib/libchromatix_ov5693_hd.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_ov5693_hfr.so:system/vendor/lib/libchromatix_ov5693_hfr.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_ov5693_preview.so:system/vendor/lib/libchromatix_ov5693_preview.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_ov5693_zsl.so:system/vendor/lib/libchromatix_ov5693_zsl.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_common.so:system/vendor/lib/libchromatix_s5k2p8_common.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_default_video.so:system/vendor/lib/libchromatix_s5k2p8_default_video.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_hfr_120.so:system/vendor/lib/libchromatix_s5k2p8_hfr_120.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_liveshot.so:system/vendor/lib/libchromatix_s5k2p8_liveshot.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_preview.so:system/vendor/lib/libchromatix_s5k2p8_preview.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_snapshot.so:system/vendor/lib/libchromatix_s5k2p8_snapshot.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_video_4k.so:system/vendor/lib/libchromatix_s5k2p8_video_4k.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_video_hd.so:system/vendor/lib/libchromatix_s5k2p8_video_hd.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libchromatix_s5k2p8_zsl.so:system/vendor/lib/libchromatix_s5k2p8_zsl.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmcamera_s5k2p8.so:system/vendor/lib/libmmcamera_s5k2p8.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/lenovo/kingdom_row/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lenovo/kingdom_row/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/kingdom_row/proprietary/bin/qmuxd:system/bin/qmuxd \
