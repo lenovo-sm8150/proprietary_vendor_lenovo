@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener \
-    TimeService
+    TimeService \
+    PPPreference
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
