@@ -164,6 +164,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmcamera_s5k2p8.so:system/vendor/lib/libmmcamera_s5k2p8.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/lenovo/kingdom_row/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/lenovo/kingdom_row/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lenovo/kingdom_row/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/kingdom_row/proprietary/bin/qmuxd:system/bin/qmuxd \
