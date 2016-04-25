@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/kingdom_row/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/lenovo/kingdom_row/proprietary/bin/mpdecision:system/bin/mpdecision-disabled \
+    vendor/lenovo/kingdom_row/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lenovo/kingdom_row/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/kingdom_row/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
