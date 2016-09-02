@@ -18,7 +18,6 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/lenovo/kingdom_row/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService \
