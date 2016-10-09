@@ -52,16 +52,6 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := PPPreference
-LOCAL_MODULE_OWNER := lenovo
-LOCAL_SRC_FILES := proprietary/app/PPPreference/PPPreference.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_ds_api
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/lib/libloc_ds_api.so
