@@ -60,11 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-    vendor/lenovo/kingdom_row/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lenovo/kingdom_row/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/lenovo/kingdom_row/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/lenovo/kingdom_row/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/lenovo/kingdom_row/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/kingdom_row/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lenovo/kingdom_row/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/kingdom_row/proprietary/lib/libarcsoft_flawless_face.so:system/lib/libarcsoft_flawless_face.so \
@@ -74,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
@@ -82,14 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -126,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lenovo/kingdom_row/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
