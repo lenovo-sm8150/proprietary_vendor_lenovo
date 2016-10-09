@@ -226,8 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lenovo/kingdom_row/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lenovo/kingdom_row/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so
+    vendor/lenovo/kingdom_row/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw
 
 endif
 
