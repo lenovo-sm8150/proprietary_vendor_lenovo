@@ -45,9 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lenovo/kingdom_row/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lenovo/kingdom_row/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
