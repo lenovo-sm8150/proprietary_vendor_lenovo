@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lenovo/kingdom_row/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lenovo/kingdom_row/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/lenovo/kingdom_row/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lenovo/kingdom_row/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
