@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/lenovo/kingdom_row/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
