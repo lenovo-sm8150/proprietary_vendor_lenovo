@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lenovo/kingdom_row/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -102,8 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/lenovo/kingdom_row/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lenovo/kingdom_row/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
