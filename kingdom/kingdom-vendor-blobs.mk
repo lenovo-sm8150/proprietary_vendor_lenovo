@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lenovo/kingdom/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/kingdom/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lenovo/kingdom/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/lenovo/kingdom/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
