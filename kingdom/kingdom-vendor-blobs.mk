@@ -51,9 +51,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/lenovo/kingdom/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/lenovo/kingdom/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
