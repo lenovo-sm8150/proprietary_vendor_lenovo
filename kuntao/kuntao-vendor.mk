@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -704,5 +704,6 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     izat.xt.srv \
     qcrilhook \
+    qti-telephony-common \
     rcsimssettings \
     tcmclient
