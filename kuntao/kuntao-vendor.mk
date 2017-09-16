@@ -386,6 +386,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmcamera_oflim_L5695F40_kuntaosy_eeprom.so:system/vendor/lib/libmmcamera_oflim_L5695F40_kuntaosy_eeprom.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
