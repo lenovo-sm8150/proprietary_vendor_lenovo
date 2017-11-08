@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/lenovo/kuntao/proprietary/lib64/libtzssm.so:system/lib64/libtzssm.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
+    vendor/lenovo/kuntao/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvfmAuth.so:system/lib64/libvfmAuth.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvfmClient.so:system/lib64/libvfmClient.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvfmtztransport.so:system/lib64/libvfmtztransport.so \
