@@ -129,11 +129,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/lenovo/kuntao/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lenovo/kuntao/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/lenovo/kuntao/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/lenovo/kuntao/proprietary/lib/libQseeOptService.so:system/lib/libQseeOptService.so \
     vendor/lenovo/kuntao/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/lenovo/kuntao/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
     vendor/lenovo/kuntao/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
@@ -149,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libQseeOptService.so:system/lib64/libQseeOptService.so \
     vendor/lenovo/kuntao/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/kuntao/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/kuntao/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
