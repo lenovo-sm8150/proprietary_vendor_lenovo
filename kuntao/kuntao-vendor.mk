@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/kuntao/proprietary/bin/cnd:system/bin/cnd \
     vendor/lenovo/kuntao/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/lenovo/kuntao/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/lenovo/kuntao/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/lenovo/kuntao/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/bin/garden_app:system/bin/garden_app \
@@ -30,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lenovo/kuntao/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lenovo/kuntao/proprietary/bin/iop:system/bin/iop \
-    vendor/lenovo/kuntao/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/kuntao/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/kuntao/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lenovo/kuntao/proprietary/bin/lowi-server:system/bin/lowi-server \
