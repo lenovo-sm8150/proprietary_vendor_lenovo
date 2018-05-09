@@ -592,4 +592,5 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-telephony-common \
     rcsimssettings \
-    tcmclient
+    tcmclient \
+    qti-vzw-ims-internal
