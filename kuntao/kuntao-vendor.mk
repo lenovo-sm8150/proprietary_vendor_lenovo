@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/lenovo/kuntao/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/kuntao/proprietary/bin/cnd:system/bin/cnd \
     vendor/lenovo/kuntao/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/lenovo/kuntao/proprietary/bin/energy-awareness:system/bin/energy-awareness \
