@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/kuntao/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lenovo/kuntao/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/lenovo/kuntao/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lenovo/kuntao/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/lenovo/kuntao/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/kuntao/proprietary/bin/radish:system/bin/radish \
