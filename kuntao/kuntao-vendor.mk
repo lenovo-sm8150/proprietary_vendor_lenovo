@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/lenovo/kuntao/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/kuntao/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/kuntao/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/kuntao/proprietary/bin/pm-proxy:system/bin/pm-proxy \
