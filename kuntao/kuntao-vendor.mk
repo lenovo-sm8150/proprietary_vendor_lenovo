@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/kuntao/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lenovo/kuntao/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/kuntao/proprietary/bin/smart_charger:system/bin/smart_charger \
     vendor/lenovo/kuntao/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lenovo/kuntao/proprietary/bin/vfmService:system/bin/vfmService \
@@ -88,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/lenovo/kuntao/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lenovo/kuntao/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/lenovo/kuntao/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
