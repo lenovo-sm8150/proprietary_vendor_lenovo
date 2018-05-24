@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/kuntao/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lenovo/kuntao/proprietary/bin/smart_charger:system/bin/smart_charger \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/smart_charger:system/vendor/bin/smart_charger \
     vendor/lenovo/kuntao/proprietary/bin/vfmService:system/bin/vfmService \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
