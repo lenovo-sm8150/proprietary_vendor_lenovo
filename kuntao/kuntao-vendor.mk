@@ -32,13 +32,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/camera/lenovo_kuntao_camera.xml:system/etc/camera/lenovo_kuntao_camera.xml \
     vendor/lenovo/kuntao/proprietary/etc/camera/ov5695_kuntaoof_chromatix.xml:system/etc/camera/ov5695_kuntaoof_chromatix.xml \
     vendor/lenovo/kuntao/proprietary/etc/camera/ov5695_kuntaosy_chromatix.xml:system/etc/camera/ov5695_kuntaosy_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.b01:system/etc/firmware/a506_zap.b01 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
     vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/lenovo/kuntao/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
