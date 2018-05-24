@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/tas2555_uCDSP.bin:system/vendor/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:system/vendor/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/kuntao/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lenovo/kuntao/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/fingerprint.msm8953.so:system/vendor/lib64/hw/fingerprint.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/nfc_nci.bcm2079x.msm8953.so:system/vendor/lib64/hw/nfc_nci.bcm2079x.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
