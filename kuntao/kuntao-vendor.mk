@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/kuntao/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/kuntao/proprietary/vendor/bin/smart_charger:system/vendor/bin/smart_charger \
-    vendor/lenovo/kuntao/proprietary/bin/vfmService:system/bin/vfmService \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/vfmService:system/vendor/bin/vfmService \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/kuntao/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lenovo/kuntao/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/fingerprint.msm8953.so:system/vendor/lib64/hw/fingerprint.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -62,11 +62,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/lenovo/kuntao/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lenovo/kuntao/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvfmAuth.so:system/lib64/libvfmAuth.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvfmClient.so:system/lib64/libvfmClient.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvfmtztransport.so:system/lib64/libvfmtztransport.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvalAuth.so:system/vendor/lib64/libvalAuth.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvcsfp.so:system/vendor/lib64/libvcsfp.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvfmAuth.so:system/vendor/lib64/libvfmAuth.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvfmClient.so:system/vendor/lib64/libvfmClient.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvfmtztransport.so:system/vendor/lib64/libvfmtztransport.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
