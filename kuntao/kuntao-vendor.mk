@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/lenovo/kuntao/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/kuntao/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/kuntao/proprietary/bin/smart_charger:system/bin/smart_charger \
     vendor/lenovo/kuntao/proprietary/bin/vfmService:system/bin/vfmService \
@@ -27,11 +27,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/camera/imx258_kuntaoof_chromatix.xml:system/etc/camera/imx258_kuntaoof_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/imx258_kuntaosy_chromatix.xml:system/etc/camera/imx258_kuntaosy_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/lenovo_kuntao_camera.xml:system/etc/camera/lenovo_kuntao_camera.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/ov5695_kuntaoof_chromatix.xml:system/etc/camera/ov5695_kuntaoof_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/ov5695_kuntaosy_chromatix.xml:system/etc/camera/ov5695_kuntaosy_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/imx258_kuntaoof_chromatix.xml:system/vendor/etc/camera/imx258_kuntaoof_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/imx258_kuntaosy_chromatix.xml:system/vendor/etc/camera/imx258_kuntaosy_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/lenovo_kuntao_camera.xml:system/vendor/etc/camera/lenovo_kuntao_camera.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/ov5695_kuntaoof_chromatix.xml:system/vendor/etc/camera/ov5695_kuntaoof_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/ov5695_kuntaosy_chromatix.xml:system/vendor/etc/camera/ov5695_kuntaosy_chromatix.xml \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/tas2555_uCDSP.bin:system/vendor/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
