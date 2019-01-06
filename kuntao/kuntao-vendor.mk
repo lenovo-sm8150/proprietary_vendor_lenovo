@@ -524,9 +524,9 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libts_detected_face_hal \
     libts_face_beautify_hal \
-    ims \
     uceShimService \
     CNEService \
+    ims \
     qcrilmsgtunnel \
     QtiTelephonyService \
     datastatusnotification \
