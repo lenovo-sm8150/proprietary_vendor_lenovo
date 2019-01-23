@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/dpmd.rc \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.dpmframework.xml \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/dpmapi.xml \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.dpmframework.jar \
@@ -77,6 +76,5 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db
 
 PRODUCT_PACKAGES += \
-    dpmserviceapp \
     qcrilmsgtunnel \
     qcrilhook
