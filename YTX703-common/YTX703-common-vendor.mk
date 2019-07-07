@@ -116,11 +116,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/framework/com.qti.location.sdk.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.location.sdk.jar \
     vendor/lenovo/YTX703-common/proprietary/vendor/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_VENDOR)/framework/izat.xt.srv.jar \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
+    vendor/lenovo/YTX703-common/proprietary/vendor/lib/libprotobuf-cpp-Hlte.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-Hlte.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libdashplayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdashplayer.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libdhcpcd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdhcpcd.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_jni.so \
+    vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libprotobuf-cpp-Hlte.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-Hlte.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxt_native.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
@@ -793,7 +795,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
-    vendor/lenovo/YTX703-common/proprietary/vendor/lib/libprotobuf-cpp-Hlte.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-Hlte.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libqct_resampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqct_resampler.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
@@ -929,7 +930,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libprotobuf-cpp-Hlte.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-Hlte.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
