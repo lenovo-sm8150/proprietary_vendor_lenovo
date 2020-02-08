@@ -27,10 +27,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/libantradio.so"],
+			srcs: ["proprietary/system/lib/libantradio.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/lib64/libantradio.so"],
+			srcs: ["proprietary/system/lib64/libantradio.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -41,7 +41,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "SoterService",
 	owner: "lenovo",
-	apk: "proprietary/app/SoterService/SoterService.apk",
+	apk: "proprietary/system/app/SoterService/SoterService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -164,7 +164,7 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "lenovo",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 dex_import {
