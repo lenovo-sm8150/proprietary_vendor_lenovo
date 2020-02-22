@@ -184,17 +184,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "CNEService",
-	owner: "lenovo",
-	apk: "proprietary/priv-app/CNEService/CNEService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "lenovo",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",

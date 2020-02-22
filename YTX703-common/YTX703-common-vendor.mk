@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/lenovo/YTX703-common/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/lenovo/YTX703-common/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
@@ -1056,7 +1055,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
-    CNEService \
     TimeService \
     QtiTelephonyServicelibrary \
     qcnvitems \
