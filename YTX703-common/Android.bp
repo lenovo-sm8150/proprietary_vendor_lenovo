@@ -183,17 +183,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-android_app_import {
-	name: "TimeService",
-	owner: "lenovo",
-	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
 dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "lenovo",
