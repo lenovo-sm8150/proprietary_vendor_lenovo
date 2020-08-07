@@ -114,6 +114,16 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "SoterService",
+	owner: "lenovo",
+	apk: "proprietary/app/SoterService/SoterService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "WfdService",
 	owner: "lenovo",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
