@@ -271,6 +271,18 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/zippo/proprietary/vendor/firmware/a640_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.mdt \
     vendor/lenovo/zippo/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
     vendor/lenovo/zippo/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_uc.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b00 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_uc.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b01 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
+    vendor/lenovo/zippo/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
     vendor/lenovo/zippo/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/lenovo/zippo/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/lenovo/zippo/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
