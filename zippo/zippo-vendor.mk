@@ -484,6 +484,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/zippo/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/lenovo/zippo/proprietary/vendor/lib/android.hardware.sensors@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.0-impl.so \
     vendor/lenovo/zippo/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/lenovo/zippo/proprietary/vendor/lib/camera/com.qti.sensor.ov02c20.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov02c20.so \
     vendor/lenovo/zippo/proprietary/vendor/lib/camera/com.qti.sensor.ov16885.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov16885.so \
     vendor/lenovo/zippo/proprietary/vendor/lib/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856.so \
@@ -884,6 +891,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/zippo/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/android.hardware.sensors@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.0-impl.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib64/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
+    vendor/lenovo/zippo/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/camera/com.qti.sensor.ov02c20.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov02c20.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/camera/com.qti.sensor.ov16885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov16885.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856.so \
