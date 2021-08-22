@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/heart/proprietary/system/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
+    vendor/lenovo/heart/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/lenovo/heart/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
     vendor/lenovo/heart/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/lenovo/heart/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service \
@@ -17,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/heart/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
     vendor/lenovo/heart/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/lenovo/heart/proprietary/vendor/etc/camera/camxoverridesettings_for_cts.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings_for_cts.txt \
+    vendor/lenovo/heart/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/lenovo/heart/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/lenovo/heart/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/lenovo/heart/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.rc \
@@ -176,6 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/heart/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/lenovo/heart/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/lenovo/heart/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/lenovo/heart/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lenovo/heart/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
@@ -245,6 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/heart/proprietary/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.nfc@1.0-impl.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
+    vendor/lenovo/heart/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
@@ -255,6 +259,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/heart/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
+    vendor/lenovo/heart/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/lenovo/heart/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
+    vendor/lenovo/heart/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
@@ -269,11 +276,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/heart/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
+    vendor/lenovo/heart/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/lenovo/heart/proprietary/vendor/lib64/vendor.goodix.extend.service@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.extend.service@2.0.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpese@1.0.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@1.0.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/lenovo/heart/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lenovo/heart/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 PRODUCT_PACKAGES += \
