@@ -84,6 +84,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/heart/proprietary/vendor/firmware/cs47l35-dsp3-ez2-record.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l35-dsp3-ez2-record.wmfw \
     vendor/lenovo/heart/proprietary/vendor/firmware/cs47l35-dsp3-karaoke-vocals.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l35-dsp3-karaoke-vocals.bin \
     vendor/lenovo/heart/proprietary/vendor/firmware/cs47l35-dsp3-karaoke-vocals.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l35-dsp3-karaoke-vocals.wmfw \
+    vendor/lenovo/heart/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
+    vendor/lenovo/heart/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/lenovo/heart/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
     vendor/lenovo/heart/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/lenovo/heart/proprietary/vendor/lib/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0-impl.so \
