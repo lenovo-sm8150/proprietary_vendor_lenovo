@@ -5,9 +5,3 @@
 soong_namespace {
 }
 
-dex_import {
-	name: "com.nxp.nfc",
-	owner: "lenovo",
-	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
-}
-
