@@ -6,6 +6,91 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lenovo/zippo
 
 PRODUCT_COPY_FILES += \
+    vendor/lenovo/zippo/proprietary/product/etc/permissions/privapp-permissions-zuicamera.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-zuicamera.xml \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libArcFilter.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libArcFilter.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libMGBeauty.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libMGBeauty.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libMegviiAIReshape.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libMegviiAIReshape.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libMegviiBeautyBody.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libMegviiBeautyBody.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libMegviiDlmk.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libMegviiDlmk.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libPlatformValidatorShared.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libSNPE.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libSNPE.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libXImgEngine.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libXImgEngine.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libamipengine.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libamipengine.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_bokeh_capture_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_bokeh_capture_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_bokeh_preview_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_bokeh_preview_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_dualcam_refocus.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_hdr_detection.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_high_dynamic_range.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_low_light_hdr.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_portrait_distortion_correction.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_supernight.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libarcsoft_superresolution.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libarcsoft_superresolution.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libc++.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libc++_shared.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libcalculator.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libcalculator.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libcalculator_domains.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libcalculator_domains.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libcalculator_domains_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libcalculator_domains_skel.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libcalculator_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libcalculator_skel.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libdistortion_correction_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libdistortion_correction_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libdspCV_stub.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libdspCV_stub.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libgnustl_shared.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libgnustl_shared.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libhdr_checker_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libhdr_checker_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libjni_jpegutil.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libjni_jpegutil.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libjpeg.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libjpeg.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libjson.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libjson.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/liblcaf_util.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/liblcaf_util.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/liblow_light_hdr_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/liblow_light_hdr_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmegface.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmegface.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmegskeleton.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmegskeleton.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmgbb-native-lib.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmgbb-native-lib.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmorpho_defocus_face.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmorpho_defocus_face.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmorpho_memory_allocator.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmorpho_noise_reduction3_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmorpho_noise_reduction3_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmorpho_panorama_gp3.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libmpbase.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libmpbase.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libnormal_hdr_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libnormal_hdr_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libreshape_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libreshape_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsingle_bokeh_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsingle_bokeh_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_adsp.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_adsp.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_skel.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_system.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_system.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_v2.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_v2_system.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_domains_v2_system.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_skel.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_v65_domains_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_v65_domains_skel.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsnpe_loader.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsnpe_loader.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsuper_night_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsuper_night_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsuper_resolution_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsuper_resolution_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsymphony-cpu.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsymphony-cpu.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libsymphonypower.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libsymphonypower.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libwatermarknew_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libwatermarknew_jni.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libyuv_shared.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libyuv_shared.so \
+    vendor/lenovo/zippo/proprietary/product/priv-app/ZuiCamera/lib/arm64/libyuvscale_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ZuiCamera/lib/arm64/libyuvscale_jni.so \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/cube/contrast_cool.png:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cube/contrast_cool.png \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/cube/contrast_warm.png:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cube/contrast_warm.png \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/cube/gray.png:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cube/gray.png \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/cube/vivid_cool.png:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cube/vivid_cool.png \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/cube/vivid_warm.png:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cube/vivid_warm.png \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/beauty3D/db.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/beauty3D/db.txt \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/beauty3D/expdata:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/beauty3D/expdata \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/beauty3D/mgbeautify_1_2_4_model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/beauty3D/mgbeautify_1_2_4_model \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/beauty3D/model.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/beauty3D/model.bin \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/beauty3D/shapedata:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/beauty3D/shapedata \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/detect_trackerfast_model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/detect_trackerfast_model \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/dlmk_model_pack:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/dlmk_model_pack \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/human_beauty_model_image:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/human_beauty_model_image \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/human_detect:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/human_detect \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/libsnpe_dsp_domains_skel.so \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/libsnpe_dsp_skel.so:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/libsnpe_dsp_skel.so \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/libsnpe_dsp_v65_domains_skel.so:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/libsnpe_dsp_v65_domains_skel.so \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/megviisegment_model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/megviisegment_model \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/skeleton_detect:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/skeleton_detect \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/models/skeleton_detect_dsp:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/models/skeleton_detect_dsp \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/face++/resource/lut_origin_white2.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/face++/resource/lut_origin_white2.bin \
+    vendor/lenovo/zippo/proprietary/system/etc/camera/lock_camera_startup.png:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/lock_camera_startup.png \
     vendor/lenovo/zippo/proprietary/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/fm_helium.so \
     vendor/lenovo/zippo/proprietary/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libfm-hci.so \
     vendor/lenovo/zippo/proprietary/system_ext/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.fm@1.0.so \
@@ -181,6 +266,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/zippo/proprietary/vendor/etc/sensors/proto/sns_zuk_patpat.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_zuk_patpat.proto \
     vendor/lenovo/zippo/proprietary/vendor/etc/sensors/proto/sns_zuk_pickup.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_zuk_pickup.proto \
     vendor/lenovo/zippo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/lenovo/zippo/proprietary/vendor/face++/models/detect_trackerfast_model:$(TARGET_COPY_OUT_VENDOR)/face++/models/detect_trackerfast_model \
+    vendor/lenovo/zippo/proprietary/vendor/face++/models/human_detect:$(TARGET_COPY_OUT_VENDOR)/face++/models/human_detect \
+    vendor/lenovo/zippo/proprietary/vendor/face++/models/megviisegment_model:$(TARGET_COPY_OUT_VENDOR)/face++/models/megviisegment_model \
+    vendor/lenovo/zippo/proprietary/vendor/face++/models/skeleton_detect_dsp:$(TARGET_COPY_OUT_VENDOR)/face++/models/skeleton_detect_dsp \
+    vendor/lenovo/zippo/proprietary/vendor/face++/resource/lut_origin_white2.bin:$(TARGET_COPY_OUT_VENDOR)/face++/resource/lut_origin_white2.bin \
     vendor/lenovo/zippo/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/lenovo/zippo/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
     vendor/lenovo/zippo/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
@@ -442,3 +532,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/zippo/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+
+PRODUCT_PACKAGES += \
+    ZuiCamera

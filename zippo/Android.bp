@@ -5,3 +5,16 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "ZuiCamera",
+	owner: "lenovo",
+	apk: "proprietary/product/priv-app/ZuiCamera/ZuiCamera.apk",
+	overrides: ["Camera2"],
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
