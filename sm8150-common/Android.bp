@@ -187,18 +187,7 @@ android_app_import {
 android_app_import {
 	name: "PowerOffAlarm",
 	owner: "lenovo",
-	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "DeviceInfo",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/app/DeviceInfo/DeviceInfo.apk",
+	apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -221,28 +210,6 @@ android_app_import {
 	name: "datastatusnotification",
 	owner: "lenovo",
 	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "embms",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/app/embms/embms.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "imssettings",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -376,23 +343,9 @@ dex_import {
 }
 
 dex_import {
-	name: "embmslibrary",
-	owner: "lenovo",
-	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "qcrilhook",
 	owner: "lenovo",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.hardware.alarm-V1.0-java",
-	owner: "lenovo",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
